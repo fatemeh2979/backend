@@ -162,7 +162,7 @@ var err error
 
 func InitDB() {
 	db, err = sql.Open("mysql",
-		"root:@tcp(127.0.0.1:3306)/userdb")
+		"root:8kb1pjgty2wgukk@tcp(userdb-idy-service)/userdb")
 	if err != nil {
 		panic(err.Error())
 	}
